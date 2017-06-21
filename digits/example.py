@@ -19,5 +19,5 @@ def tensorflow_example():
     # having defined our computational graph, let's run it, print it out, and return it
     with tf.Session() as sess:
         result = sess.run(product)
-        print("Result of tensorflow computation: " + str(result))
+        print("Result of tensorflow computation: " + str(result) + “ Woohoo!”)
         return result
